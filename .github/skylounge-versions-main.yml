@@ -1,0 +1,19 @@
+---
+skylounge-yml: "902f092c2dd732c8407bc60fe77716a1abbb8e64"
+skylounge-yml-html-url: "https://github.com/mgwebb/hello/blob/e12d78461b8493828ae89d65719fcb766c246a9f/skylounge.yml"
+lifecycle-template:
+  id: "blueprint"
+  template-uri: "sky-lounge/public-skylounge-definitions/blueprints/hello-skylounge/blueprint.yml"
+  sha: "4f6ac172eba54dd01166a75eb1691bbcb23669af"
+  html-url: "https://github.com/sky-lounge/public-skylounge-definitions/blob/fa0453e611bbb6ef77d26cca6e4b32ae283aceb0/blueprints/hello-skylounge/blueprint.yml"
+workflows:
+- id: "hello"
+  template-uri: "sky-lounge/public-skylounge-definitions/blueprints/hello-skylounge/hello.yml"
+  sha: "8ec850d40b2d92375d7fb0f928c84e5b3cd8fad7"
+  html-url: "https://github.com/sky-lounge/public-skylounge-definitions/blob/fa0453e611bbb6ef77d26cca6e4b32ae283aceb0/blueprints/hello-skylounge/hello.yml"
+  jobs: []
+  steps:
+  - id: "say-hello"
+    template-uri: "mgwebb/hello/step/custom-hello-step.yml"
+    sha: "c3e89001972751e21d0a33d99b343d97c2680c11"
+    html-url: "https://github.com/mgwebb/hello/blob/e12d78461b8493828ae89d65719fcb766c246a9f/step/custom-hello-step.yml"
