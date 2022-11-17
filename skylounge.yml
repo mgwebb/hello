@@ -8,6 +8,6 @@ workflows:
           - step: say-hello
             template-uri:
               # Specify the URI to the step to in your fork to say hello. This should be
-              mgwebb/hello/step/custom-hello-step.yml
+              mgwebb/hello/step/custom-hello-step.ymltypo
         params:
           name: Bender 
